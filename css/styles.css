@@ -497,11 +497,16 @@ img {
   margin-left: auto;
 }
 
-.wrapper-subscribe {
+.form-subscribe {
+  display: flex;
+  gap: 24px;
+}
+
+/* .wrapper-subscribe {
   display: flex;
   gap: 24px;
   justify-content: space-between;
-}
+} */
 
 .text-subscribe {
   color: #ffffff;
