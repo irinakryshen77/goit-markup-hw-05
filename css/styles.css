@@ -776,11 +776,11 @@ img {
   vertical-align: middle;
 }
 
+.checkbox:checked + .checkbox-label .checkbox-icon {
+  fill: #f4f4fd;
+}
+
 .checkbox:checked + .checkbox-label .checkbox-element {
   background-color: #404bbf;
   border: none;
-}
-
-.checkbox:checked + .checkbox-label .checkbox-icon {
-  fill: #f4f4fd;
 }
